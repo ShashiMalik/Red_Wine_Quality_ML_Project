@@ -1,0 +1,8 @@
+  artifacts_roots: artifacts 
+
+
+  data_ingestion:
+    root_dir: artifacts/data_ingestion
+    source_URL: https://github.com/ShashiMalik/Dataset/raw/refs/heads/main/Wine_Quality_Dataset.zip
+    local_data_file: artifacts/data_ingestion/data.zip
+    unzip_dir: artifacts/data_ingestion
