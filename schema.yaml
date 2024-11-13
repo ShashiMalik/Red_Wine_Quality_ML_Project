@@ -14,4 +14,4 @@ columns:
    Id :  int64  
 
 TARGET_COLUMN :
-    NAME : quality
+    name : quality

@@ -1,6 +1,8 @@
 from mlproject_template.config.configuration import ConfigurationManager
 from mlproject_template.components.data_transformation import DataTransformation
 from mlproject_template import logger
+from pathlib import Path
+
 
 STAGE_NAME = "DATA_TRANSFORMATION_STAGE"
 
