@@ -23,5 +23,7 @@ class ModelTrainer:
 
 
         lr = ElasticNet(alpha=self.config.aplha, l1_ratio=self.config.l1_ratio, random_state=422)
+        lr.fit(train_x, train_y)
+
 
         joblib.dump(lr, os.path.join(self.config.root_dir, self.config.model_name))
