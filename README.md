@@ -12,3 +12,11 @@ conda activate venv_rwqproject
 ```bash
 pip install -r requirements.txt
 ```
+
+```bash
+python app.py
+```
+
+```bash
+Now open the local host 0.0.0.0:8080
+```
